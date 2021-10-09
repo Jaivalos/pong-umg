@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1631590310 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\prueba 4\libgame.cpp
+	"libgame.h"
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+
+1357610010 c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\prueba 4\libgame.h
+
+1631591181 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\prueba 4\main.cpp
+	<stdio.h>
+	<conio.h>
+	"libgame.h"
+
+1632974818 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2\libgame.cpp
+	"libgame.h"
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+
+1632973171 c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2\libgame.h
+
+1632978548 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2\main.cpp
+	<stdio.h>
+	<conio.h>
+	"libgame.h"
+	"Pong.h"
+	<stdlib.h>
+	<windows.h>
+	<iostream>
+
+1632976719 c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2\pong.h
+
+1632977768 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2\pong.cpp
+	"Pong.h"
+	<stdio.h>
+	<conio.h>
+	"libgame.h"
+	<windows.h>
+
+1632974818 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\libgame.cpp
+	"libgame.h"
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+
+1632973171 c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\libgame.h
+
+1632977768 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\pong.cpp
+	"Pong.h"
+	<stdio.h>
+	<conio.h>
+	"libgame.h"
+	<windows.h>
+
+1632976719 c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\pong.h
+
+1633057546 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\main.cpp
+	<stdio.h>
+	<conio.h>
+	"libgame.h"
+	"Pong.h"
+	<stdlib.h>
+	<windows.h>
+	<iostream>
+
