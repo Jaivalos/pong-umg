@@ -45,6 +45,29 @@ void pintar_marco()       // funcion que pinta los limites del escenario
      gotoxy(77,23);    printf ("%c", 188);
 }
 
+void borrar_marco()       // funcion que borra los limites del escenario
+{
+     // Lineas horizontals
+     for(int i=2; i < 78; i++){
+        gotoxy (i, 3); printf ("%c", 32);
+        gotoxy(i, 23); printf ("%c", 32);
+     }
+     //Lineas verticales
+     for(int v=4; v < 23; v++){
+        gotoxy (2,v);  printf ("%c", 32);
+        gotoxy(77,v);  printf ("%c", 32);
+     }
+     // Esquinas
+     gotoxy  (2,3);    printf ("%c", 32);
+     gotoxy (2,23);    printf ("%c", 32);
+     gotoxy (77,3);    printf ("%c", 32);
+     gotoxy(77,23);    printf ("%c", 32);
+
+     for(int v=9; v < 18; v++){
+        gotoxy (40,v);  printf ("%c", 32);
+     }
+}
+
 void lineam()       // funcion que pinta la linea de en medio
 {
      //Linea vertical
