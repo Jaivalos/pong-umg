@@ -35,7 +35,13 @@ int main(){
         }
         if(!cont++) p.mover(a, b);
         if(cont > 5) cont = 0;
-        pausa(10);
+        pausa(5);
+        if(tecla == 'c') {
+            borrar_marco();
+            a.borrar();
+            b.borrar();
+            exit(1);
+        }
     }
 
 }

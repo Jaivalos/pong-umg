@@ -23,6 +23,7 @@ void inicia_libgame();
 void gotoxy(int x, int y);
 void OcultaCursor();
 void pintar_marco();
+void borrar_marco();
 void lineam();
 void Color(int color);
 void pausa(int x);
