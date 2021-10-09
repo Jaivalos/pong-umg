@@ -20,10 +20,6 @@ int main(){
 
     pelota p(38,14,1,1);
 
-    PlaySound("Karibu-Watu-Wangu.wav", NULL, SND_ALIAS|SND_LOOP);
-
-    //char cancion[]="C:\Users\Nuevo Usuario\Documents\Ingenieria en sistemas\Semestre 2\Algoritmos\Fase 2 V1\Karibu-Watu-Wangu.wav";
-
     char tecla;
      pintar_marco();
     lineam();
@@ -41,6 +37,7 @@ int main(){
         if(cont > 5) cont = 0;
         pausa(5);
         if(tecla == 'c') {
+            p.borrar();
             borrar_marco();
             a.borrar();
             b.borrar();
