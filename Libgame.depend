@@ -38,13 +38,13 @@
 	"libgame.h"
 	<windows.h>
 
-1633790529 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\libgame.cpp
+1633790819 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\libgame.cpp
 	"libgame.h"
 	<windows.h>
 	<stdio.h>
 	<conio.h>
 
-1633790017 c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\libgame.h
+1633790819 c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\libgame.h
 
 1632977768 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\pong.cpp
 	"Pong.h"
@@ -55,7 +55,7 @@
 
 1632976719 c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\pong.h
 
-1633789987 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\main.cpp
+1633812346 source:c:\users\nuevo usuario\documents\ingenieria en sistemas\semestre 2\algoritmos\fase 2 v1\main.cpp
 	<stdio.h>
 	<conio.h>
 	"libgame.h"
