@@ -47,8 +47,8 @@ void pintar_marco()       // funcion que pinta los limites del escenario
 
 void borrar_marco()       // funcion que borra los limites del escenario
 {
-    gotoxy (3, 2); printf ("GRACIAS POR JUGAR!                                   ");
-    gotoxy (3, 25); printf ("                              ");
+    gotoxy (3, 2); printf ("GRACIAS POR JUGAR!                                                      ");
+    gotoxy (3, 25); printf ("                             ");
      // Lineas horizontals
      for(int i=2; i < 78; i++){
         gotoxy (i, 3); printf ("%c", 32);
@@ -74,7 +74,7 @@ void lineam()       // funcion que pinta la linea de en medio
 {
     gotoxy (3, 2); printf ("INSTRUCCIONES: UTILICE -Q-A- Y -O-L- PARA MOVER A LOS JUGADORES");
 
-    gotoxy (3, 25); printf ("Presione c para salir");
+    gotoxy (3, 25); printf ("PRESIONA C PARA SALIR");
      //Linea vertical
      for(int v=9; v < 18; v++){
         gotoxy (40,v);  printf ("%c", 219);
