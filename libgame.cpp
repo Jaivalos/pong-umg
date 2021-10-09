@@ -28,6 +28,8 @@ void Color(int color){
 
 void pintar_marco()       // funcion que pinta los limites del escenario
 {
+    gotoxy (3, 25); printf ("Presione c para salir");
+
      // Lineas horizontals
      for(int i=2; i < 78; i++){
         gotoxy (i, 3); printf ("%c", 205);
@@ -47,6 +49,7 @@ void pintar_marco()       // funcion que pinta los limites del escenario
 
 void borrar_marco()       // funcion que borra los limites del escenario
 {
+    gotoxy (3, 25); printf (" ");
      // Lineas horizontals
      for(int i=2; i < 78; i++){
         gotoxy (i, 3); printf ("%c", 32);
